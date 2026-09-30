@@ -3,10 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
+/*   By: zabdulja <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/30 16:08:24 by zabdulja          #+#    #+#             */
+/*   Updated: 2026/09/30 18:51:48 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {
@@ -22,3 +24,19 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+
+/*
+#include <bsd/string.h>
+#include <stdio.h>
+
+int	main(void)
+{
+	char	*strtemp;
+	char	*strtemp1;
+	int		s;
+
+	strtemp = NULL;
+	strtemp1 = NULL;
+	s = strlen(strtemp);
+	return (0);
+}*/
