@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zabdulja <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/30 16:07:11 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/09/30 18:50:03 by zabdulja         ###   ########.fr       */
+/*   Created: 2026/10/02 07:04:01 by zabdulja          #+#    #+#             */
+/*   Updated: 2026/10/02 07:04:19 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

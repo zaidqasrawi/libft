@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zabdulja <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/30 16:06:58 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/09/30 16:06:59 by zabdulja         ###   ########.fr       */
+/*   Created: 2026/10/02 07:04:29 by zabdulja          #+#    #+#             */
+/*   Updated: 2026/10/02 07:04:29 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 {
 	const unsigned char	*pointer;
 	size_t				i;
-	
+
 	i = 0;
 	pointer = (const unsigned char *)s;
 	while (i < n)
@@ -27,9 +27,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*
 #include <stdio.h>
 #include <string.h>
-/*
+
+
 int	main(void)
 {
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zabdulja <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/30 18:52:13 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/09/30 18:52:14 by zabdulja         ###   ########.fr       */
+/*   Created: 2026/10/02 06:59:03 by zabdulja          #+#    #+#             */
+/*   Updated: 2026/10/02 06:59:11 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ static int	in_set(char c, char const *set)
 	}
 	return (0);
 }
+
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;
