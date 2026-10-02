@@ -38,26 +38,14 @@ To use libft in another project:
 ```bash
 cc -Wall -Wextra -Werror your_file.c -L. -lft -o your_program
 ```
-
-### Function List
-
-| Category | Functions |
-|----------|-----------|
-| Character checks | `ft_isalpha`, `ft_isdigit`, `ft_isalnum`, `ft_isascii`, `ft_isprint` |
-| String manipulation | `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strncmp`, `ft_strnstr`, `ft_strdup` |
-| Memory manipulation | `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`, `ft_calloc` |
-| Conversion | `ft_atoi`, `ft_itoa`, `ft_toupper`, `ft_tolower` |
-| String utilities | `ft_substr`, `ft_strjoin`, `ft_strtrim`, `ft_split`, `ft_strmapi`, `ft_striteri` |
-| Output | `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd` |
-| Linked list | `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap` |
-
 ## Resources
-
-- [C library reference (cppreference.com)](https://en.cppreference.com/w/c)
 - [Linux man pages](https://man7.org/linux/man-pages/)
+- [Understanding Malloc in C](https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
 - [Understanding linked lists](https://www.learn-c.org/en/Linked_lists)
+- [Linked Lists in C](https://www.geeksforgeeks.org/c/linked-list-in-c/)
+- [Makefile Tutorial ](://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
 
 ### AI Usage
 
 <!-- Describe how AI was used in this project, for which tasks and which parts -->
-AI was used as a learning aid to understand function behaviors and edge cases. All code was written with understanding of the underlying logic.
+I used AI tools solely to help me understand how specific functions work and to explore edge cases. However, I wrote every line of code myself and fully understand the logic behind it.
