@@ -22,7 +22,6 @@ static int	in_set(char c, char const *set)
 	}
 	return (0);
 }
-/*
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;
@@ -37,4 +36,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 	while (end > start && in_set(s1[end - 1], set))
 		end--;
 	return (ft_substr(s1, start, end - start));
-}*/
+}
