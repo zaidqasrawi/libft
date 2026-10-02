@@ -43,7 +43,7 @@ cc -Wall -Wextra -Werror your_file.c -L. -lft -o your_program
 - [Understanding Malloc in C](https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
 - [Understanding linked lists](https://www.learn-c.org/en/Linked_lists)
 - [Linked Lists in C](https://www.geeksforgeeks.org/c/linked-list-in-c/)
-- [Makefile Tutorial ](://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
+- [Makefile Tutorial ](https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/)
 
 ### AI Usage
 
