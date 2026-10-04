@@ -32,18 +32,17 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 }
 /*
 #include <stdio.h>
-
+#include <string.h>
 int	main(void)
 {
 
 		char src[] = "Hello, World!";
 		char dst1[20] = {0};
 		char dst2[20] = {0};
+		char *d = "";
+		char *s = "";
+		//ft_memcpy(s, src, 13);
+		memcpy(NULL, NULL, 1);
 
-		ft_memcpy(dst1, src, 13);
-		memcpy(dst2, src, 13);
-
-		printf("Test 1 (String):\n");
-		printf("  ft_memcpy: [%s]\n", dst1);
-		printf("  memcpy:    [%s]\n", dst2);
+		printf("  ft_memcpy: [%s]\n", d);
 }*/

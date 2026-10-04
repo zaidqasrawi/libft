@@ -16,21 +16,23 @@ int	ft_atoi(const char *nptr)
 {
 	int	result;
 	int	sign;
+	int	i;
 
+	i = 0;
 	result = 0;
 	sign = 1;
-	while (*nptr == ' ' || (*nptr >= 9 && *nptr <= 13))
-		nptr++;
-	if (*nptr == '-' || *nptr == '+')
+	while (nptr[i] == ' ' || (nptr[i] >= 9 && nptr[i] <= 13))
+		i++;
+	if (nptr[i] == '-' || nptr[i] == '+')
 	{
-		if (*nptr == '-')
-			sign = -1;
-		nptr++;
+		if (nptr[i] == '-')
+			sign *= -1;
+		i++;
 	}
-	while (*nptr >= '0' && *nptr <= '9')
+	while (nptr[i] >= '0' && nptr[i] <= '9')
 	{
-		result = result * 10 + (*nptr - '0');
-		nptr++;
+		result = result * 10 + (nptr[i] - '0');
+		i++;
 	}
 	return (result * sign);
 }

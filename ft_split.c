@@ -53,7 +53,7 @@ static char	*get_next_word(char const **s, char c)
 static void	free_all(char **result, int i)
 {
 	while (i > 0)
-		free(result[--i]);
+		free(result[i--]);
 	free(result);
 }
 

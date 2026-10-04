@@ -47,5 +47,4 @@ cc -Wall -Wextra -Werror your_file.c -L. -lft -o your_program
 
 ### AI Usage
 
-<!-- Describe how AI was used in this project, for which tasks and which parts -->
 I used AI tools solely to help me understand how specific functions work and to explore edge cases. However, I wrote every line of code myself and fully understand the logic behind it.

@@ -18,3 +18,11 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	int i = '3';
+	printf("%d",ft_isalnum(i));
+	return(0);
+}*/
