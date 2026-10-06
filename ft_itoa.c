@@ -6,7 +6,7 @@
 /*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 07:05:07 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/10/02 07:05:08 by zabdulja         ###   ########.fr       */
+/*   Updated: 2026/10/06 15:00:02 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,11 +54,13 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
+/*
 #include <stdio.h>
-int main()
+
+int	main(void)
 {
 	char    *string;
-	string = ft_itoa(-52555);
+	string = ft_itoa(0123);
 	printf("%s",string);
 	return (0);
-}
+}*/

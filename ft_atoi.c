@@ -6,7 +6,7 @@
 /*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 07:05:39 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/10/02 07:05:40 by zabdulja         ###   ########.fr       */
+/*   Updated: 2026/10/06 15:00:28 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,11 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sign);
 }
+/*
+#include <stdio.h>
+
+int	main(void)
+{
+	char	*s = "-124253";
+	printf()
+}*/
