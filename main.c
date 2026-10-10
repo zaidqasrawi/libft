@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "libft.h" // تأكد من وجود ملف الهيدر
+#include "libft.h"
 
 int main(void)
 {
-    // 1. اختبار ft_itoa
     int num1 = -12345;
     int num2 = 0;
     char *str_num1 = ft_itoa(num1);
@@ -18,7 +17,6 @@ int main(void)
     free(str_num1);
     free(str_num2);
 
-    // 2. اختبار ft_strjoin
     char *s1 = "Hello ";
     char *s2 = "42 Amman!";
     char *joined = ft_strjoin(s1, s2);
@@ -28,7 +26,6 @@ int main(void)
     
     free(joined);
 
-    // 3. اختبار ft_calloc
     printf("--- Testing ft_calloc ---\n");
     int *arr = (int *)ft_calloc(5, sizeof(int));
     if (arr)
