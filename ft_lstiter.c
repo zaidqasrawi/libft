@@ -22,3 +22,31 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+/*
+void times_two (void *content)
+{
+*(int *)content = *(int *)content * 2;
+}
+int main(void)
+{
+
+t_list *head;
+
+int val1 = 50;
+int val2 = 30;
+int val3 = 10;
+int i = 1;
+head = ft_lstnew(&val1);
+head->next = ft_lstnew(&val2);
+head->next->next = ft_lstnew(&val3);
+
+ft_lstiter(head,times_two);
+
+while (head)
+{
+printf ("node %d after applying function = %d",i, *(int *)head->content);
+i++;
+head = head->next;
+}
+return (0);
+}*/

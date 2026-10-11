@@ -31,3 +31,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[len] = '\0';
 	return (sub);
 }
+/*
+int main(void)
+
+{
+char *s = ft_substr ("zaidqasrawi",4,7);
+printf("%s",s);
+}*/
