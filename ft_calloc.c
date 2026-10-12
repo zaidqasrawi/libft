@@ -6,7 +6,7 @@
 /*   By: zabdulja <zabdulja@student.42amman.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 07:05:30 by zabdulja          #+#    #+#             */
-/*   Updated: 2026/10/02 07:05:30 by zabdulja         ###   ########.fr       */
+/*   Updated: 2026/10/12 22:32:48 by zabdulja         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	size_t	total;
 
 	total = nmemb * size;
+	if (nmemb != 0 && total / nmemb != size)
+		return (NULL);
 	ptr = malloc(total);
 	if (ptr == NULL)
 		return (NULL);
@@ -29,10 +31,10 @@ void	*ft_calloc(size_t nmemb, size_t size)
 int	main(void)
 
 {
-	int *arr = (int *) ft_calloc(6,sizeof(int));
+	int *arr = (int *) ft_calloc(0,sizeof(int));
 	if (arr)
 	{
-		for (int i = 0; i <5 ; i++)
+		for (int i = 0; i <50 ; i++)
 		{
 			printf("%d ",arr[i]);
 		}

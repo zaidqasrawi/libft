@@ -38,14 +38,15 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (ft_substr(s1, start, end - start));
 }
-
+/*
 int	main(void)
 {
-	char s[] = "dhhhghgghgigdddd";
-	char s1[] = "ggd";
-	char *c;
+	char	s[] = "dhhhghgghgigdddd";
+	char	s1[] = "ggd";
+	char	*c;
+
 	c = ft_strtrim(s, s1);
 	puts(c);
 	free(c);
 	return (0);
-}
+}*/
